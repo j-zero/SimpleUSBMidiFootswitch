@@ -13,7 +13,7 @@ const int NButtons = 4;
 const int buttonPin[NButtons] = {2, 3, 4, 5}; 
 
                       // BCKSPC 
-int letter[NButtons] = {KEY_BACKSPACE,  ' ', KEY_LEFT_ARROW, KEY_RIGHT_ARROW}; // key codes
+int letter[NButtons] = {' ', KEY_BACKSPACE, KEY_LEFT_ARROW, KEY_RIGHT_ARROW}; // key codes
 int buttonCState[NButtons] = {0,0,0,0};
 int buttonPState[NButtons] = {0,0,0,0};
 
